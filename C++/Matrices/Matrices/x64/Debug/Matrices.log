@@ -1,0 +1,6 @@
+﻿  Matrices.cpp
+C:\Users\Test-Plus\Documents\Computer Science Codes\Matrices\Matrices.cpp(25,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Test-Plus\Documents\Computer Science Codes\Matrices\Matrices.cpp(25,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Test-Plus\Documents\Computer Science Codes\Matrices\Matrices.cpp(25,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Test-Plus\Documents\Computer Science Codes\Matrices\Matrices.cpp(102,1): warning C4717: 'main': recursive on all control paths, function will cause runtime stack overflow
+  Matrices.vcxproj -> C:\Users\Test-Plus\Documents\Computer Science Codes\Matrices\x64\Debug\Matrices.exe

@@ -1,0 +1,98 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+#include <string>
+#include <ctime>
+#include <cmath>
+#include <random>
+#define _USE_MATH_DEFINES
+#define RESET   "\033[0m"
+#define GREEN   "\033[32m"
+using namespace std;
+
+int main();
+
+void Clear()
+{
+#if defined(_WIN32)
+	system("cls");   //On windows, do this
+#elif defined (__unix__) || (defined (__APPLE__) && defined (__MACH__))
+	system("clear");//On Linux/OS X/BSDs
+#else                   //For an unrecognized OS, just print 50 newlines
+	for (int i = 0; i < 50; ++i) std::cout << std::endl;
+#endif
+}
+
+void Q1() {
+	cout << "(" << __func__ << ")\n\n\n";
+
+	cout << "\n\n\n\n\n";
+	main();
+}
+
+void Q2() {
+	cout << "(" << __func__ << ")\n\n\n";
+
+	cout << "\n\n\n\n\n";
+	main();
+}
+
+void Q3() {
+	cout << "(" << __func__ << ")\n\n\n";
+
+	cout << "\n\n\n\n\n";
+	main();
+}
+
+void Q4() {
+	cout << "(" << __func__ << ")\n\n\n";
+
+	cout << "\n\n\n\n\n";
+	main();
+}
+
+int main()
+{
+	int Question = -1;
+	int const Options = 4;
+	cout << "Hark! Thou art bidden to select a function, numbered from 1 to " << Options << ", by entering the digits betwixt, or bid farewell to this program with 0." << "\n\n";
+	cout << "|-=> ";
+	cin >> Question;
+	switch (Question)
+	{
+	case 0:
+		Clear();
+		cout << endl << "Shouldst thou truly wish to bid farewell to this program, then presseth the Enter key upon thy keyboard." << endl;
+		cin.get();
+		exit(0);
+		break;
+	case 1:
+		Clear();
+		Q1();
+		break;
+	case 2:
+		Clear();
+		Q2();
+		break;
+	case 3:
+		Clear();
+		Q3();
+		break;
+	case 4:
+		Clear();
+		Q4();
+		break;
+		//case 5:
+		//	Clear();
+		//	Q5();
+		//	break;
+	default:
+		Clear();
+		cout << endl << "Alas! In the kingdom of code, thy command hath fallen upon deaf ears, for no function bearing that name doth dwell within this program.\nPray, take heed and choose from among the options bestowed upon thee, ranging from the humblest " << GREEN << "1 to the grand " << Options << RESET << ", for therein lies the path to thy desired destination.\nLet not thy heart be heavy with lament, for though this road be fraught with unexpected twists and turns, it shall lead thee to the coveted land of solution.\nChoose wisely, and let not despair cloud thy noble quest for knowledge and mastery of the arcane arts of programming.\n" << endl;
+		main();
+		break;
+	}
+	cin.ignore();
+	cin.get();
+	return 0;
+}

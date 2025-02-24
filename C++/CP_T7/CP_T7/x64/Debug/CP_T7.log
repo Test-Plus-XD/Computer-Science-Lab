@@ -1,0 +1,387 @@
+﻿  CP_T7.cpp
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'void' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(486,39):
+      could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 2 from 'void' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(454,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': cannot convert argument 2 from 'void' to 'const void *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(436,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': cannot convert argument 2 from 'void' to 'long double'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(418,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': cannot convert argument 2 from 'void' to 'double'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(400,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': cannot convert argument 2 from 'void' to 'float'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(382,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': cannot convert argument 2 from 'void' to 'unsigned __int64'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(364,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': cannot convert argument 2 from 'void' to '__int64'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(346,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': cannot convert argument 2 from 'void' to 'unsigned long'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(328,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': cannot convert argument 2 from 'void' to 'long'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(309,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': cannot convert argument 2 from 'void' to 'unsigned int'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(283,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': cannot convert argument 2 from 'void' to 'int'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(264,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': cannot convert argument 2 from 'void' to 'unsigned short'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(230,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': cannot convert argument 2 from 'void' to 'short'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(212,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': cannot convert argument 2 from 'void' to 'bool'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(206,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': cannot convert argument 2 from 'void' to 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(200,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': cannot convert argument 2 from 'void' to 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(195,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': cannot convert argument 2 from 'void' to 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(1086,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'const std::error_code &'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(1009,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(1008,103):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(951,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'unsigned char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(945,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'const unsigned char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(940,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'signed char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(934,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'const signed char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(898,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+              could be 'void'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+              or       'char'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(855,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(817,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(772,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'const char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(736,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(692,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+          'initializing': cannot convert from 'void' to 'const char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,50):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\memory(3761,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\memory(1969,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\xstring(5232,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'void'
+      C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(175,8):
+      while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, void)'
+  
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'void' (or there is no acceptable conversion)
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(486,39):
+      could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': cannot convert argument 2 from 'void' to 'std::basic_streambuf<char,std::char_traits<char>> *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(454,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': cannot convert argument 2 from 'void' to 'const void *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(436,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': cannot convert argument 2 from 'void' to 'long double'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(418,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': cannot convert argument 2 from 'void' to 'double'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(400,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': cannot convert argument 2 from 'void' to 'float'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(382,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': cannot convert argument 2 from 'void' to 'unsigned __int64'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(364,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': cannot convert argument 2 from 'void' to '__int64'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(346,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': cannot convert argument 2 from 'void' to 'unsigned long'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(328,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': cannot convert argument 2 from 'void' to 'long'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(309,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': cannot convert argument 2 from 'void' to 'unsigned int'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(283,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': cannot convert argument 2 from 'void' to 'int'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(264,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': cannot convert argument 2 from 'void' to 'unsigned short'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(230,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': cannot convert argument 2 from 'void' to 'short'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(212,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': cannot convert argument 2 from 'void' to 'bool'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(206,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': cannot convert argument 2 from 'void' to 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(200,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': cannot convert argument 2 from 'void' to 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(195,39):
+      or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': cannot convert argument 2 from 'void' to 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(1086,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'const std::error_code &'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(1009,9):
+      or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(1008,103):
+              '<template-parameter>': you cannot create a pointer to a reference
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(951,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'unsigned char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(945,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'const unsigned char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(940,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'signed char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(934,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'const signed char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(898,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+              could be 'void'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+              or       'char'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(855,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(817,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(772,31):
+      or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'const char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(736,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'char'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\ostream(692,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+          'initializing': cannot convert from 'void' to 'const char *'
+              C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,48):
+              Expressions of type void cannot be converted to other types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\memory(3761,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\memory(1969,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'void'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33617\include\xstring(5232,32):
+      or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+          'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'void'
+      C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(176,8):
+      while trying to match the argument list '(std::basic_ostream<char,std::char_traits<char>>, void)'
+  
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(184,11): error C3861: 'transfer': identifier not found
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T7\CP_T7.cpp(185,11): error C3861: 'transfer': identifier not found
