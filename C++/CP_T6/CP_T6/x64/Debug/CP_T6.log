@@ -1,0 +1,3 @@
+﻿  CP_T6.cpp
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T6\CP_T6.cpp(54,1): warning C4715: 'clacPI': not all control paths return a value
+  CP_T6.vcxproj -> C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP_T6\x64\Debug\CP_T6.exe

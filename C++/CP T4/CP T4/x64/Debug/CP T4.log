@@ -1,0 +1,4 @@
+﻿  CP T4.cpp
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP T4\CP T4.cpp(89,15): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP T4\CP T4.cpp(92,15): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+  CP T4.vcxproj -> C:\Users\Test-Plus\Documents\Computer Science Lab\Codes\CP T4\x64\Debug\CP T4.exe
