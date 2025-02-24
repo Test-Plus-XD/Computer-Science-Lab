@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML5 canvas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+		<!-- Canvas -->
+        <script>
+            function doCanvas(){
+               // get component
+               var c = document.getElementById("myCanvas");
+               var ctx = c.getContext("2d");
+            
+               // draw a line
+               ctx.moveTo(0,0);
+               ctx.lineTo(400,300);
+               ctx.stroke();
+            
+               // Draw a Circle
+               ctx.beginPath();
+               ctx.arc(200,150,40,0,2*Math.PI);
+               ctx.stroke();
+            
+               // Draw a Text
+               ctx.font = "30px Arial";
+               ctx.fillText("Hello World",10,50);
+            
+               // Draw a Text
+               ctx.font = "30px Arial";
+               ctx.strokeText("Hello World",200,50);
+            
+               // Draw Linear Gradient
+               var grd = ctx.createLinearGradient(0,0,200,0);
+               grd.addColorStop(0,"red");
+               grd.addColorStop(1,"white");
+               ctx.fillStyle = grd;
+               ctx.fillRect(10,200,250,80);
+            }
+            </script>
+			<!-- Canvas -->
+
+    </head>
+    <body onload="doCanvas();">
+
+        <!-- Canvas -->
+        <canvas id="myCanvas" width="400" height="300"></canvas>
+		<!-- Canvas -->
+
+    </body>
+</html>

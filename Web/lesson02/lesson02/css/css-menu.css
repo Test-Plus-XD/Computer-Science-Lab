@@ -1,0 +1,25 @@
+.menu {
+    background-color:lightgray;		
+    padding:5px;	
+    Line-height:40px;
+    float:center;		
+}
+.menu a{
+    background-color:blue;
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 14px 14px 0 0;
+}
+/* mouse over */
+.menu a:hover{
+    background-color: orange;
+}
+/* Google Font */
+.googleFont {
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+    

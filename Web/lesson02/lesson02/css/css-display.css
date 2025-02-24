@@ -1,0 +1,5 @@
+div {margin: 1rem; border:1px black solid;}
+div.d1 {display: none; border:1px red solid;}
+div.d2 {display: inline; border:1px red solid;}
+div.d3 {display: block; border: 1px red solid;}
+div.d4 {display: inline-block; border: 1px red solid;}

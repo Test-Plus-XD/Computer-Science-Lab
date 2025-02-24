@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Homework2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+ 
+<!-- Form -->
+<form>
+	<fieldset>
+		<legend> Registration </legend>
+		
+		<input type="text" name="name" placeholder="Username"><br />
+		<input type="password" name="pw" placeholder="Password"><br />
+		<input type="password" name="rpw" placeholder="Re-type Password"><br />
+		Gender:
+		<input type="radio" name="sex" value="m">M
+		<input type="radio" name="sex" value="f">F <br />
+
+		DoB: <input type="date" name="dob"> <br />
+		<input type="text" name="phone" placeholder="Phone"> <br />
+		<input type="email" name="email" placeholder="Email"> <br />
+		<input type="url" name="url" placeholder="Website"> <br />
+		Country:
+		
+		<select>
+		<option value="cn">China</option>
+		<option value="hk" selected>Hong Kong</option>
+		<option value="tw">Taiwan</option>
+		</select>
+		<br />
+		
+		Passport Photo: <input type="file" name="photo"> <br/>
+		Membership:
+		<input type="checkbox" name="membership" value="free">Free
+		<input type="checkbox" name="membership" value="normal">Normal
+		<input type="checkbox" name="membership" value="platinum">Platinum
+		<br />
+		Theme Style: <input type="color" name="theme"> <br />
+		Rating: <input type="range" min="5" max="10" step="1"> <br />
+
+	</fieldset>
+</form>
+		
+    </body>
+</html>

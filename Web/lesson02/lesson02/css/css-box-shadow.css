@@ -1,0 +1,17 @@
+#shadow1 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: -5px -10px;
+}
+ 
+#shadow2 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px #888888;
+}
+ 
+#shadow3 {
+	border: 1px solid;
+	padding: 10px;
+	box-shadow: 5px 10px red;
+}

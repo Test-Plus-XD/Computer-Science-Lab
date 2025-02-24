@@ -1,0 +1,22 @@
+html {
+    color: black;
+    font-size: 40px;                              
+}
+#id1{
+    color: blue;
+    font-size: 20px;                
+    border:1px blue solid;
+    margin: 10px;
+}
+#id2{
+    color: green;
+    font-size: 3em;
+    border:1px green solid;
+    margin: 10px;
+}
+#id3{
+    color: red;
+    font-size: 0.5rem;
+    border:1px red solid;
+    margin: 10px;
+}    

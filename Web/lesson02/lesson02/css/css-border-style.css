@@ -1,0 +1,33 @@
+div {
+    margin: 1rem;
+    padding: 0.5rem;
+}
+div.b1 {
+    border-style: solid;
+}
+div.b2 {
+    border-style: dashed;
+}
+div.b3 {
+    border-style: double;
+}
+div.b4 {
+    border-style: groove;
+    border-width: 10px;
+    border-color: red;
+}
+div.b5 {
+    border-style: ridge;
+    border-width: 10px;
+    border-color: red;	
+}
+div.b6 {
+    border-style: inset;
+    border-width: 10px;
+    border-color: red;	
+}
+div.b7 {
+    border-style: outset;
+    border-width: 10px;
+    border-color: red;	
+}

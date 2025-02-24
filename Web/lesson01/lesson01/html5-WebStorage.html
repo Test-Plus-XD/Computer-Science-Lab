@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Web Storage</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<!-- Web Storage -->
+	<script>
+	function checkWebStorage(){
+		if (typeof(Storage) !== "undefined") {
+			alert("local storage and session storage are ready!");           
+		} else {
+			alert("No Web Storage!");
+		}
+	}     
+	function doWebStorage(){
+		// set value
+		localStorage.lastname = "StephenSir";
+		// assign value
+		document.getElementById("result").innerHTML = localStorage.lastname;
+		// Remove value
+		localStorage.removeItem("lastname");
+	}
+	</script>
+	<!-- Web Storage -->
+
+</head>
+<body  onload="checkWebStorage()">
+
+	<!-- localStorage -->
+	<h1 id="result">Hello</h1>
+	<button onClick="doWebStorage();">Web Storage</button>
+	<!-- localStorage -->
+	
+</body>
+</html>

@@ -1,0 +1,53 @@
+header {
+	background-color:green;
+	color:white;
+	text-align:center;
+	padding:5px;	 
+}
+
+nav {
+	background-color:lightgray;
+	float:center;
+	padding:5px;	      
+}
+
+section {
+	width:100%;
+	float:left;
+	padding:10px;	 	 
+}
+
+footer {
+	background-color:green;
+	color:white;
+	clear:both;
+	text-align:center;
+	padding:5px;	
+	/* position fixed */
+	position: fixed;	
+	bottom: 0;
+	width: 100%	 	 
+}
+
+p.menu{
+	line-height:20px;
+}
+
+p.menu a{
+	background-color:blue;
+	color:white; 
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0;
+}
+
+p.menu a:hover{
+	background-color: orange;
+}
+img {
+	opacity: 0.5;
+}
+img:hover {
+	opacity: 1.0;
+	border: green solid 1px;
+}

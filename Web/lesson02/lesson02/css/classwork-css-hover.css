@@ -1,0 +1,11 @@
+.item {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+.item:hover {
+    background-color: red;
+    padding:25px;
+    box-shadow: 5px 10px #888888;
+}
