@@ -290,7 +290,13 @@ This part continues to use the `xs` variable above. Write code to do the followi
 """
 
 import matplotlib.pyplot as plt
+from pathlib import Path
+outputDirectory = Path(__file__).resolve().parent / "plots"
+outputDirectory.mkdir(parents=True, exist_ok=True)
 plt.hist(xs, bins=100);
+plt.savefig(outputDirectory / "t01_q2d_histogram.png", dpi=150, bbox_inches="tight")
+plt.show()
+plt.close()
 
 """## &#x2766;
 

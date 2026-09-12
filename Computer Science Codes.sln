@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.10.12120.281 insiders
+VisualStudioVersion = 18.10.12120.281
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Computer Science", "C++\Computer Science.vcxproj", "{BF79164D-A1C5-4829-8AA7-DDEA76EFB125}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Python Scripts", "Python Scripts", "{6F4C4E4A-2A1A-4F7E-8F2A-4A8F4F5A2B6C}"
-	ProjectSection(SolutionItems) = preProject
-		Python\Computer Science.py = Python\Computer Science.py
-		Python\requirements.txt = Python\requirements.txt
-		Python\t01_qn.py = Python\t01_qn.py
-	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python", "Python\Python.pyproj", "{70B600E8-EE76-4623-A3B3-835B20EBA237}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,9 +25,16 @@ Global
 		{BF79164D-A1C5-4829-8AA7-DDEA76EFB125}.Release|x64.Build.0 = Release|x64
 		{BF79164D-A1C5-4829-8AA7-DDEA76EFB125}.Release|x86.ActiveCfg = Release|Win32
 		{BF79164D-A1C5-4829-8AA7-DDEA76EFB125}.Release|x86.Build.0 = Release|Win32
+		{70B600E8-EE76-4623-A3B3-835B20EBA237}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{70B600E8-EE76-4623-A3B3-835B20EBA237}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{70B600E8-EE76-4623-A3B3-835B20EBA237}.Release|x64.ActiveCfg = Release|Any CPU
+		{70B600E8-EE76-4623-A3B3-835B20EBA237}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70B600E8-EE76-4623-A3B3-835B20EBA237} = {6F4C4E4A-2A1A-4F7E-8F2A-4A8F4F5A2B6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04950F11-0065-424C-9AA1-815D5C028A12}
